@@ -32,7 +32,7 @@ const Registration = () => {
         } else if (err.response.status === 402) {
           Swal.fire({
             icon: "error",
-            title: "400",
+            title: "402",
             text: "User Already Exists with the given email id!",
           });
         }
